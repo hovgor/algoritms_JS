@@ -1,5 +1,5 @@
-let paperSize = 0.1;
-let foldCount = 10;
+let paperSize = 1;
+let foldCount = 4;
 let foldCountSize = 0;
 
 while (foldCount--) {

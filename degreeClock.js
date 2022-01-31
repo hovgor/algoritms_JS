@@ -2,7 +2,7 @@
 // get the degree of angle.
 
 function clockDeg(hour, minute) {
-  let clockMinute = minute * 6; 
+  let clockMinute = minute * 6;
   let clockHour = hour * 30 + minute * 0.5;
   let degree = clockHour - clockMinute;
   if (degree < 0) {
@@ -11,4 +11,4 @@ function clockDeg(hour, minute) {
   return degree;
 }
 
-console.log(clockDeg(3, 16));
+console.log(clockDeg(3, 15));

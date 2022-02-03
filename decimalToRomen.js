@@ -1,6 +1,6 @@
 function decimalToRomen(number) {
-  const num = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000];
-  const sym = [
+  const numbers = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000];
+  const symbols = [
     "I",
     "IV",
     "V",
@@ -18,14 +18,14 @@ function decimalToRomen(number) {
   let i = 12;
   let str = "";
   while (number > 0) {
-    let div = parseInt(number / num[i]);
-    number = number % num[i];
+    let div = parseInt(number / numbers[i]);
+    number = number % numbers[i];
     while (div--) {
-      str += sym[i];
+      str += symbols[i];
     }
     i--;
   }
   return str;
 }
 
-console.log(decimalToRomen(1995));
+console.log(decimalToRomen(1999));

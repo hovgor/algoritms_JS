@@ -26,4 +26,4 @@ const atmScheme = (money) => {
   return obj;
 };
 
-console.log(atmScheme(1540));
+console.log(atmScheme(1478));

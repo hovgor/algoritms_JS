@@ -27,5 +27,4 @@ function decimalToRomen(number) {
   }
   return str;
 }
-
-console.log(decimalToRomen(1999));
+console.log(decimalToRomen(1995));

@@ -1,5 +1,6 @@
 let fourSum = function (nums, target) {
   let number = 0;
+  if (target === 0) return 0;
   for (let i = 0; i < nums.length; ++i) {
     number += nums[i];
   }
@@ -8,4 +9,4 @@ let fourSum = function (nums, target) {
   }
 };
 
-console.log(fourSum([1, 2, 3, 4, 5], 0));
+console.log(fourSum([1, 2, 3, 4, 5], 3));
